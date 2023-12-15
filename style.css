@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Lobster', cursive;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 80px;
+}
+.header img{
+  width:40vw;
+  height: 100px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 90vw;
+  border-radius: 15px;
+  height: 60px;
+  background-color: #555;
+}
+.navbar li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+ 
+}
+li a{
+  transition: .3s all ease;
+  color:white;
+  padding:30px;
+  text-decoration: none;
+}
+.header1 {
+  
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.header1 img{
+  position:relative;
+  padding: 0;
+  margin: 0;
+  margin-top:40px;
+  width: 90vw;
+  height: 250px;
+  border-radius: 20px;
+}
+.dis{
+  position:absolute;
+  top:30%;
+  left:10%;
+  color: white;
+  margin-bottom: 60px;
+ 
+  
+}
+.dis h1{
+  padding-bottom: 20px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  flex-direction: row;
+  width: 90vw;
+  
+}
+.box{
+  background-color: antiquewhite;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width:30%;
+  margin:20px;
+  padding:10px;
+
+}
+.box h2{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box p{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box img{
+  margin:0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box a{
+  color:blue;
+  text-decoration: none;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90vw;
+  margin: 0%;
+}
+.footer1,.footer2{
+  margin: 0 5% 0 5%;
+  width:45vw;
+}
+@media only screen and (max-width:730px) {
+  .menu, .footer{
+    flex-direction: column;
+  }
+  .box{
+    width:90vw;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90vw;
+    margin: 0%;
+  }
+  .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90vw;
+    border-radius: 15px;
+   
+    background-color: #555;
+  }
+}
